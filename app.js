@@ -7,7 +7,7 @@ async function initApp() {
   console.log("initApp: app.js is running 🎉"); // Log to the console that the app is running
   const teachers = await getTeachers();
   //console.log(teachers);
-  displayTeachers(teachers);
+  //displayTeachers(teachers);
   displayTeachersGrid(teachers);
 }
 
